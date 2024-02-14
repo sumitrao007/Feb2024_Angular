@@ -1,0 +1,19 @@
+<p>eventbinding1 works!</p>
+<!-- synatx
+    (eventname)="eventHandler"
+-->
+
+<button (click)="onClick()" >Click</button><br><br>
+<img (click)="onImage()" id="myimg" src="../../assets/bg12.jpg" alt="">
+<br><br>
+
+<!-- syntax 
+    $event 
+    - It is special variable 
+    - it gives current DOM Element Information 
+    - It is only Json Object 
+    - It only access a data 
+
+-->
+
+<button value="Doller event Data.." (click)="onDollerEvent($event)" >Doller Event </button>

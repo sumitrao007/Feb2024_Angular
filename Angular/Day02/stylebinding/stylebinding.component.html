@@ -1,0 +1,19 @@
+<p>stylebinding works!</p>
+<!-- synatx
+    [style.cssproperty]="propertyname"
+-->
+
+<h2 [style.color]="mycolor" >Apply Style Binding </h2>
+
+<h2 [style.color]="rating<4?'red':'green'" >Apply Style Binding On Condition</h2>
+
+<!-- ngStyle 
+    - to set multiple css property 
+    - to json Object to set 
+    - it is attribute directive 
+    - u can apply any html tag 
+-->
+
+<div [ngStyle]="jsonObj" >
+    Apply ngStyle attribute directive 
+</div>
