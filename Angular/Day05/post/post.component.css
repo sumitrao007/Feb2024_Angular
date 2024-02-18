@@ -1,0 +1,18 @@
+tr,td,th{
+    border: 1px solid;
+}
+table{
+    border-collapse: collapse;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    border:  2px solid green;
+}
